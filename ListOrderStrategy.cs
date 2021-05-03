@@ -48,7 +48,7 @@ namespace ConsoleAppStategyPattern
         object Execute(object data);
     }
 
-    public class ConcreteStrategyRegular : IStrategy
+    public class ConcreteStrategyRegularOrder : IStrategy
     {
         public object Execute(object data)
         {
@@ -58,7 +58,7 @@ namespace ConsoleAppStategyPattern
         }
     }
 
-    public class ConcreteStrategyReverse : IStrategy
+    public class ConcreteStrategyReverseOrder : IStrategy
     {
         public object Execute(object data)
         {
