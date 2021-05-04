@@ -6,7 +6,7 @@ namespace ConsoleAppStategyPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("== Strategy Pattern ==");
+            Console.WriteLine("=== Strategy Pattern ===");
 
             var context = new Context();
 
